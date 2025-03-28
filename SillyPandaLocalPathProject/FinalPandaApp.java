@@ -1,4 +1,6 @@
 import javax.swing.*;
+import javax.swing.ImageIcon;
+import java.awt.Graphics;
 
 public class FinalPandaApp extends JFrame {
     PandaMouth panda;

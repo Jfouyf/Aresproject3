@@ -1,15 +1,18 @@
+import javax.swing.ImageIcon;
+import java.awt.Graphics;
+
 public class PandaEyes extends PandaHead {
     protected ImageIcon eyesImage;
 
     public PandaEyes() {
         super();
-        eyesImage = loadImage("/Users/ajsun/Desktop/eye.jpg");
+        eyesImage = loadImage("/Users/ajsun/Desktop/eye.png");
         description += "Added anime eyes. ";
     }
 
-    @Override
+
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
-        eyesImage.paintIcon(this, g, 0, 0);
+        eyesImage.paintIcon(this, g, 40, -30);
     }
 }

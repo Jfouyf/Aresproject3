@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
+import javax.swing.ImageIcon;
+import java.awt.Graphics;
 
 public class PandaPart extends JPanel {
     protected String description;
