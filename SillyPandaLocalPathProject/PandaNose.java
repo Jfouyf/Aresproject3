@@ -12,7 +12,7 @@ public class PandaNose extends PandaEyes {
         System.out.println("Nose image loaded: " + (noseImage != null));
     }
 
-    @Override
+  
     public void paintComponent(Graphics g) {
 
         super.paintComponent(g);
